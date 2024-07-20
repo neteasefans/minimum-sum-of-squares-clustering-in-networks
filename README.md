@@ -1,7 +1,7 @@
 # minimum-sum-of-squares-clustering-in-networks
 This repository includes the source code of the proposed MA algorithm published in an Information Sciences paper titled with "A memetic algorithm based on reformulation local search for minimum sum-of-squares clustering in networks".
 
-The three sets of 72 benchmark instances consist of 40 instances from OR-LIB, 20 instances from TSP-LIB, and 12 instances from University of Florida Sparse Matrix (UFSM) Collection. To facilitate the further research, we upload the instances here.
+The three sets of 72 benchmark instances consist of 40 instances from OR-LIB, 20 instances from TSP-LIB, and 12 instances from University of Florida Sparse Matrix (UFSM) Collection. To facilitate the further research, we upload the 40 pmed instances from OR-LIB here.
 
 Reference papers to the minimum sum-of-squares clustering in networks (EMSSC):
 
