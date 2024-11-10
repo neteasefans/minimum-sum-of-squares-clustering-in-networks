@@ -1,9 +1,9 @@
-# A memetic algorithm based on reformulation local search for minimum sum-of-squares clustering in networks
+# A memetic algorithm based on reformulation local search for minimum sum-of-squares clustering in networks (EMSSC)
 This repository includes the source code of the proposed MA algorithm published in an Information Sciences paper titled with "A memetic algorithm based on reformulation local search for minimum sum-of-squares clustering in networks".
 
-The three sets of 72 benchmark instances consist of 40 instances from OR-LIB, 20 instances from TSP-LIB, and 12 instances from University of Florida Sparse Matrix (UFSM) Collection. To facilitate the further research, we upload the 40 pmed instances from OR-LIB here.
+The three sets of 132 benchmark instances consist of 40 instances from OR-LIB, 80 instances from TSP-LIB (20 instances with p \in {10, 50, 100, 200} for each instance, giving a total of 80 instances), and 12 instances from University of Florida Sparse Matrix (UFSM) Collection (3 instanes with p \in {10, 50, 100, 200} for each instance, giving a total of 12 instances). To facilitate the further research, we upload the used 132 instances here.
 
-Reference papers to the minimum sum-of-squares clustering in networks (EMSSC):
+We made comparisons between MA and some state-of-the-art methods from the following related EMSSC works:
 
 [1] E. Carrizosa, N. Mladenovic´ , R. Todosijevic´ , Variable neighborhood search for minimum sum-of-squares clustering on networks, Eur. J. Oper. Res. 230(2) (2013) 356–363.
 
@@ -14,3 +14,25 @@ Reference papers to the minimum sum-of-squares clustering in networks (EMSSC):
 Please cite our work as:
 
 Zhou, Q., Benlic, U., & Wu, Q. (2020). A memetic algorithm based on reformulation local search for minimum sum-of-squares clustering in networks. Information Sciences, 541, 271-296.
+
+** Instructions to use the source code of MA
+
+*** To compile:
+
+q.zhou$ make
+
+q.zhou$
+
+*** To run:
+
+q.zhou$ ./MA_EMSSC ./instance_file ./output_stat_file ./output_sol_file seed
+
+(where "instance_file is the instance name, output_stat_file is a file used to store the running information, output_sol_file stores the solution information, and seed is the random seed, such as 1, 2, ...")
+
+q.zhou$
+
+*** To clean
+
+q.zhou$ make clean
+
+q.zhou$
